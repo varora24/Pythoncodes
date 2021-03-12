@@ -21,5 +21,6 @@ for i in range(60):
     pyautogui.typewrite('\n',interval=0.1)
     pyautogui.hotkey('ctrl','w')
     numsearch = i+1
+    print(f'Search number {numsearch} done with word {searches[choose_word]}!')
 
 print(f'{numsearch} searches completed :)')
